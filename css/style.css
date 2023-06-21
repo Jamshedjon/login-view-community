@@ -1,0 +1,28 @@
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v30-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* root selector color */
+:root {
+  --radio: #f7fafc;
+  --label-login: #4a5568;
+  --join: #2b6cb0;
+  --text: #2d3748;
+  --forgot: #2c5282;
+  --title: #1a202c;
+  --border-input: #e8e8e8;
+  --login-btn: #04c35c;
+  --sign-in: #2d3748;
+}
