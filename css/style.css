@@ -26,3 +26,105 @@
   --login-btn: #04c35c;
   --sign-in: #2d3748;
 }
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+body {
+  font-family: "Roboto";
+  font-size: 1.6rem;
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 3rem;
+}
+
+.login-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login-view__left {
+  width: 720px;
+}
+.login-view-left-img {
+}
+.login-view__right {
+  width: 720px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-view__right-page {
+  display: flex;
+  flex-direction: column;
+}
+.right-page__text {
+  color: var(--text, #2d3748);
+  font-size: 1.6rem;
+  font-family: "Roboto";
+}
+.right-page__title {
+  color: var(--title, #1a202c);
+  font-size: 3rem;
+  font-family: "Roboto";
+  font-weight: 700;
+}
+.right-page__form {
+}
+.right-page__email {
+}
+.right-page__label {
+}
+.right-page__label-text {
+  color: var(--label-login, #4a5568);
+  font-size: 1.6rem;
+  font-family: "Roboto";
+}
+.right-page__input-email {
+}
+.right-page__password {
+}
+.right-page__input-password {
+}
+.right-page-login {
+}
+.right-page__remember {
+}
+.right-page__remember-label {
+}
+.right-page__remember-radio {
+}
+.right-page__remember-text {
+}
+.right-page__forgot-link {
+}
+.right-page__login-wrapper {
+}
+.right-page__login-btn {
+}
+.right-page__signup-btn {
+}
+.right-join__text {
+}
+.right-join__link {
+}
